@@ -1,0 +1,23 @@
+import numpy as np
+import pyscreenshot as ImageGrab
+import smtplib
+
+from PIL import Image
+from helper import send_email
+
+
+
+
+
+if __name__ == "__main__":
+    #im=ImageGrab.grab(bbox=(10,10,510,510)) # X1,Y1,X2,Y2
+
+    im = Image.open('92.png')
+
+    im.show()
+    im = np.array(im.getdata())
+
+
+
+    # send_email(user='xxxx@gmail.com', pwd='xxxx', subject='PM Found!')
+
