@@ -8,8 +8,8 @@ from helper import send_email
 #Setting
 bbox=(0,100,800,800)
 scanTime = 20
-user = 'yuan.07a@gmail.com'
-pwd = 'mesalikeitgml07!'
+user = 'xxxxxx@gmail.com'
+pwd = 'xxxxxxx'
 thres = [-3.5, -3.5, -3., -5., -2.7]
 
 #Initialize
